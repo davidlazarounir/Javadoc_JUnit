@@ -18,10 +18,21 @@ public class Resta {
     //Tercer metodo:Resta de tres números reales, tendrá 3 parámetros de entrada
     // y uno de salida que será la solución.
 
-    public double restarReal(double numb1,double numb2){
-        return numb1 - numb2;
+    public double restarReales(double numb1,double numb2,double numb3){
+        return numb1 - numb2 - numb3;
     }
 
+    //Cuarto metodo: Resta con valor acumulado, tendrá un parámetro de entrada
+    // y la clase deberá de guardar el valor acumulado.
+
+    public double restaAcumulada(double numb){
+        valorAcumulado -= numb;
+        return valorAcumulado;
+    }
+
+    public double getValorAcumulado(){
+        return valorAcumulado;
+    }
 
 
 
