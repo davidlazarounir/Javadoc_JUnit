@@ -20,5 +20,8 @@ public class Main {
         System.out.println("Valor acumulado después de reiniciar: " + suma.getAcumulado());
 
          */
+
+        //Pruebas de Resta
+        System.out.println("La resta de dos numeros reales : " );
     }
 }
