@@ -22,6 +22,6 @@ public class Main {
          */
 
         //Pruebas de Resta
-        System.out.println("La resta de dos numeros reales : " );
+        System.out.println("La resta de dos numeros reales : " + resta. );
     }
 }
