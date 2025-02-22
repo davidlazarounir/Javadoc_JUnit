@@ -45,7 +45,6 @@ public class Main {
 
 
         //Pruebas de Resta
- branch_Anncaph7
         Resta resta= new Resta();
         System.out.println("La resta de dos numeros reales : " + resta.restaReales(8.5, 6.5));
         System.out.println("La resta de dos numeros enteros : " + resta.restaEnteros(10, 7));
