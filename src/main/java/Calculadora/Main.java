@@ -51,6 +51,16 @@ public class Main {
         System.out.println("La resta de tres números reales : " + resta.restarReales(8.3,2.2,1.3));
         System.out.println("La resta con un valor acumulado : " + resta.restaAcumulado(7));
 
+
+        //Pruebas para la división (el Cociente):
+        // División de reales
+        System.out.println("División de numeros reales: " + cociente.dividirReales(50.0, 25.0));
+        // División de enteros
+        System.out.println("División de numeros enteros: " + cociente.dividirEnteros(5000, 2500));
+        // La inversión de reales
+        System.out.println("Inversión de un numero: " + cociente.inversoReal(50));
+        // La raíz cuadrada
+        System.out.println("Raíz cuadrada de 25: " + cociente.raizCuadrada(25));
  
     }
 
