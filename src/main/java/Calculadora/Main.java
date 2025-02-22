@@ -6,8 +6,8 @@ public class Main {
         Suma suma = new Suma();
 
         // Pruebas de suma normales
-        System.out.println("Suma de dos reales: " + suma.sumaReales(5.7, 2.4));
-        System.out.println("Suma de dos enteros: " + suma.sumaEnteros(444, 365));
+        System.out.println("Suma de dos reales: " + suma.sumaReales(-5.7, 2.4));
+        System.out.println("Suma de dos enteros: " + suma.sumaEnteros(0, 365));
         System.out.println("Suma de tres reales: " + suma.sumaTresReales(1.45, 27.244, 35.32));
 
         /*
