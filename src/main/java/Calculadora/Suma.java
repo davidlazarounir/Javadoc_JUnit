@@ -3,12 +3,12 @@ package Calculadora;
 /**
  * Clase que proporciona operaciones matemáticas básicas
  * @author David Lázaro
- * @version 1.0
+ * @version 1.1
  */
 
 public class Suma {
 
-    private double acumulado;   //Variable que se usa para el metodo 4
+    private double acumulado;   //Variable que se usa para el metodo sumarAcumulado
 
 
     public Suma(){
