@@ -36,9 +36,7 @@ public class Resta {
         return acumulado;
     }
 
-    public double getAcumulado(){
-        return acumulado;
-    }
+
 
 
     }
