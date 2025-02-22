@@ -6,11 +6,11 @@ public class Main {
         Suma suma = new Suma();
 
         // Pruebas de suma normales
-        System.out.println("Suma de dos reales: " + suma.sumaReales(5.5, 2.3));
-        System.out.println("Suma de dos enteros: " + suma.sumaEnteros(5, 3));
-        System.out.println("Suma de tres reales: " + suma.sumaTresReales(1.1, 2.2, 3.3));
+        System.out.println("Suma de dos reales: " + suma.sumaReales(-5.7, 2.4));
+        System.out.println("Suma de dos enteros: " + suma.sumaEnteros(0, 365));
+        System.out.println("Suma de tres reales: " + suma.sumaTresReales(1.45, 27.244, 35.32));
 
-        /*
+        /**
         // Pruebas de suma acumulada
         System.out.println("Valor acumulado inicial: " + suma.getAcumulado());
         System.out.println("Sumando 10 al acumulado: " + suma.sumarAcumulado(10));
@@ -21,7 +21,32 @@ public class Main {
 
          */
 
+        //Pruebas para la Multiplicación.
+        Producto producto = new Producto();
+
+        // Probar el producto de dos números reales
+        System.out.println("Producto de dos reales " + producto.prodcutoreales(3.7, 2.4));
+        //En caso de número negativo, la operación será errónea.
+        //En caso de número 0, el resultado será 0.
+
+        // Probar el producto de dos números enteros
+        System.out.println("Producto de dos enteros " + producto.productoenteros(5, 2));
+        //En caso de número negativo, la operación será errónea.
+        //En caso de número 0, el resultado será 0.
+
+        // Probar el producto de tres números reales
+        System.out.println("Producto de tres reales " + producto.productotresreales
+                (1.45, 27.244, 35.32));
+        //En caso de número negativo, la operación será errónea.
+        //En caso de número 0, el resultado será 0.
+
+        // Probar la potencia de un número
+        System.out.println("Potencia de base por exponente" + producto.productopotencia(8, 4));
+
+
         //Pruebas de Resta
-        System.out.println("La resta de dos numeros reales : " );
+        // System.out.println("La resta de dos numeros reales : " );
     }
-}
+
+
+    }
