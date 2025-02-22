@@ -8,7 +8,7 @@ package Calculadora;
 
  */
 
-public class Potencia {
+public class Producto {
 
     /**
      * Producto de dos números reales y devuelve solucion.
@@ -17,7 +17,7 @@ public class Potencia {
      * @param Realb Segundo numero real a multiplicar.
      * @return Resultado de la multiplicación de Reala y Realb.
      */
-    public double potenciareales(double Reala, double Realb) {
+    public double prodcutoreales(double Reala, double Realb) {
         return Reala * Realb;
     }
 
@@ -29,31 +29,31 @@ public class Potencia {
      * @param Enterob Segundo numero entero a multiplicar.
      * @return Resultado de la multiplicación de Enteroa y Enterob.
      */
-    public int potenciaenteros(int Enteroa, int Enterob) {
+    public int productoenteros(int Enteroa, int Enterob) {
         return Enteroa * Enterob;
     }
 
 
     /**
      * Producto de tres números reales y devuelve solucion.
-
+     *
      * @param Reala Primer numero real a multiplcar.
      * @param Realb Segundo numero real a multiplicar.
      * @param Realc Tercer numero real a multiplicar.
      * @return Resultado de la multiplicación de Reala, Realb y Realc.
      */
-    public double potenciatresreales(double Reala, double Realb, double Realc) {
+    public double productotresreales(double Reala, double Realb, double Realc) {
         return Reala * Realb * Realc;
     }
 
     /**
-     * Producto de tres números reales y devuelve solucion.
+     * Potencia de Base por Exponente y devuelve solucion.
 
      * @param Base Base al que se elevará.
      * @param Exponente Exponente que se elevará la base.
      * @return Resultado del Exponente elevado a la Base
     */
-    public double potencia(double Base, int Exponente) {
+    public double productopotencia(double Base, int Exponente) {
         return Math.pow(Base, Exponente);
     }
 
