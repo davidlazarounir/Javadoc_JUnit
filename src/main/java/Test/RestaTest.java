@@ -5,7 +5,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class RestaTest {
-
+    /**
+     * Prueba de resta
+     */
     private Resta resta;
 
     @Before
