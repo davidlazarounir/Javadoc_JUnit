@@ -1,27 +1,37 @@
 package Calculadora;
 
-
 /**
- * Clase 4: Cociente.
- *  * Clase que implementa operaciones relacionadas con la división y raíces.
- *  * Incluye métodos para división de números reales/enteros, inverso y raíz cuadrada.
- *  *
- * @author David Díaz Pérez (https://github.com/WorldOfPromise)
- * @see <a href="https://github.com/davidlazarounir/Javadoc_JUnit/">nuestro repositorio compartido</a>
- *
- *
- * Dentro de la Calculadora tengo que desarrollar esta clase.
- * Copio el texto del enunciado:
- * Esta clase implementará todos los métodos que están relacionados con la división
- * de la calculadora. Esta clase tendrá los siguientes métodos:
- * 1. División de dos números reales, tendrá 2 parámetros de entrada y uno de salida que será la solución.
- * 2. División de dos números enteros, tendrá 2 parámetros de entrada y uno de salida que será la solución.
- * 3. Inverso de un número real, tendrá un parámetro de entrada y uno de salida que será la solución.
- * 4. Raíz de un número, tendrá un parámetro de entra y uno de salida que será la solución.
- **/
+ * Clase que realiza operaciones matemáticas.
+ * Esta clase implementará todos los métodos que están relacionados con la multiplicación de la calculadora.
+ * @author WorldOfPromise
+ * @version 1.0
+
+ */
+
+
 
 
 public class Cociente {
+
+    /**
+     * Clase 4: Cociente.
+     *  * Clase que implementa operaciones relacionadas con la división y raíces.
+     *  * Incluye métodos para división de números reales/enteros, inverso y raíz cuadrada.
+     *  *
+     * @author David Díaz Pérez (https://github.com/WorldOfPromise)
+     * @version 1.5
+     * @see <a href="https://github.com/davidlazarounir/Javadoc_JUnit/">nuestro repositorio compartido</a>
+     *
+     *
+     * Dentro de la Calculadora tengo que desarrollar esta clase.
+     * Copio el texto del enunciado:
+     * Esta clase implementará todos los métodos que están relacionados con la división
+     * de la calculadora. Esta clase tendrá los siguientes métodos:
+     * 1. División de dos números reales, tendrá 2 parámetros de entrada y uno de salida que será la solución.
+     * 2. División de dos números enteros, tendrá 2 parámetros de entrada y uno de salida que será la solución.
+     * 3. Inverso de un número real, tendrá un parámetro de entrada y uno de salida que será la solución.
+     * 4. Raíz de un número, tendrá un parámetro de entra y uno de salida que será la solución.
+     **/
 
 
     /**
