@@ -8,8 +8,10 @@ public class Resta {
     }
 
    /**
-     * Primer metodo: Resta de dos números reales,
-     *  tendrá 2 parámetros de entrada y uno de salida que será la solución.
+     * @param  a primer numero real
+     * @param  b segundo numero real
+    * @return a menos b como resultado
+    * @throws -a o -b se podría lanzar un valor negativo
       */
 
 
@@ -17,22 +19,32 @@ public class Resta {
         return a  - b;
     }
 
-    /** Segundo metodo:Resta de dos números enteros,
-    tendrá 2 parámetros de entrada y uno de salida que será la solución.*/
+    /***
+     * @param a primer numero entero
+     * @param b segundo numero entero
+     * @return resultado de de a - b
+     * @throws -a o -b pueden  tener  valor negativo
+     * */
 
     public int restaEnteros(int a,int b){
         return a - b;
     }
 
-    /**Tercer metodo:Resta de tres números reales, tendrá 3 parámetros de entrada
-    y uno de salida que será la solución.*/
+    /**
+     * @param a Primer numero real
+     * @param b Segundo numero real
+     * @param c Tercer numero real
+     * @retun el resultato de 3 reales nos devolvera un valor
+     * .*/
 
     public double restarReales(double a,double b,double c){
         return a - b - c;
     }
 
-    /**Cuarto metodo: Resta con valor acumulado, tendrá un parámetro de entrada
-     y la clase deberá de guardar el valor acumulado.*/
+    /**
+     * @param valor
+     * @return se guardara el valor acumulado
+     **/
 
     public double restaAcumulado(double valor){
         acumulado -= valor;
