@@ -63,12 +63,11 @@ public class Producto {
      * @param Exponente Exponente que se elevará la base.
      * @return Resultado del Exponente elevado a la Base
      */
-    public double productopotencia(double Base, int Exponente) {
+    public double productopotencia(int Base, int Exponente) {
         if (Base == 0 || Exponente == 0) {
             throw new IllegalArgumentException("Si utilizas un numero 0 el resultado será 0");
 
-
         }
-        return Math.pow(Base, Exponente);
+       return Math.pow(Base, Exponente);
     }
 }

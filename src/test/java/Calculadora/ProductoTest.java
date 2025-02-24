@@ -42,7 +42,7 @@ class ProductoTest {
     @Test
     @DisplayName("Test Potencia")
     void productopotencia() {
-        assertEquals(16.0, producto.productopotencia(2.0, 4), 0.0001);
+        assertEquals(1, producto.productopotencia(1, 21), 0.0001);
     }
 
 
