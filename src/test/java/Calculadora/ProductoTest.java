@@ -5,6 +5,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ProductoTest extends Modulo {
@@ -21,7 +22,17 @@ class ProductoTest extends Modulo {
 
     }
 
-    @Test
+ /**
+  * Prueba adicional de test:
+  */
+
+ @Test
+ public void testProdcutoreales() {
+  Producto producto = new Producto();
+  assertEquals(6.0, producto.prodcutoreales(2.0, 3.0), 0.001);
+ }
+
+ @Test
     void productoenteros() {
      assertEquals(-10, producto.productoenteros(-5, 2));
     }
@@ -76,5 +87,37 @@ class ProductoTest extends Modulo {
 
  @Test
  void testProductopotencia1() {
+ }
+
+ @Test
+ void testProdcutoreales2() {
+ }
+
+ @Test
+ void testProductoenteros2() {
+ }
+
+ @Test
+ void testProductotresreales2() {
+ }
+
+ @Test
+ void testProductopotencia2() {
+ }
+
+ @Test
+ void testProdcutoreales3() {
+ }
+
+ @Test
+ void testProductoenteros3() {
+ }
+
+ @Test
+ void testProductotresreales3() {
+ }
+
+ @Test
+ void testProductopotencia3() {
  }
 }
