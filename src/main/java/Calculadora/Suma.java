@@ -3,7 +3,7 @@ package Calculadora;
 /**
  * Clase que proporciona operaciones matemáticas básicas
  * @author David Lázaro
- * @version 1.1
+ * @version 1.2
  */
 
 public class Suma {
@@ -41,7 +41,7 @@ public class Suma {
 
     /**
      * Suma valor acumulado, tendrá un parámetro de entrada y la clase deberá de guardar el valor acumulado
-     * @param valor
+     * @param valor, es el numero que se introduce y sustituye al acumulado, guardando la cifra
      * @return
      */
 
