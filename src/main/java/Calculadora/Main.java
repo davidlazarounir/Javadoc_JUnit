@@ -57,6 +57,7 @@ public class Main {
         System.out.println("Potencia de base por exponente" + producto.productopotencia(8, 4));
 
 
+
         //Pruebas de Resta
         Resta resta= new Resta();
         System.out.println("La resta de dos numeros reales : " + resta.restaReales(8.5, 6.5));
@@ -65,13 +66,14 @@ public class Main {
         System.out.println("La resta con un valor acumulado : " + resta.restaAcumulado(7));
 
 
+
         //Pruebas para la división (el Cociente):
         // División de reales
-        System.out.println("División de numeros reales: " + cociente.dividirReales(50.0, 25.0));
+        System.out.println("División de numeros reales: " + cociente.divisionReales(50.0, 25.0));
         // División de enteros
-        System.out.println("División de numeros enteros: " + cociente.dividirEnteros(5000, 2500));
+        System.out.println("División de numeros enteros: " + cociente.divisionEnteros(5000, 2500));
         // La inversión de reales
-        System.out.println("Inversión de un numero: " + cociente.inversoReal(50));
+        System.out.println("Inversión de un numero: " + cociente.calcularInverso(50));
         // La raíz cuadrada
         System.out.println("Raíz cuadrada de 25: " + cociente.raizCuadrada(25));
  
