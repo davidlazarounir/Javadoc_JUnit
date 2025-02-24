@@ -3,8 +3,13 @@ package Calculadora;
 
 /**
  * Clase 4: Cociente.
- * (Por David Díaz Pérez, mi repositorio en https://github.com/WorldOfPromise)
- * Nuestro repositorio compartido es: https://github.com/davidlazarounir/Javadoc_JUnit/
+ *  * Clase que implementa operaciones relacionadas con la división y raíces.
+ *  * Incluye métodos para división de números reales/enteros, inverso y raíz cuadrada.
+ *  *
+ * @author David Díaz Pérez (https://github.com/WorldOfPromise)
+ * @see <a href="https://github.com/davidlazarounir/Javadoc_JUnit/">nuestro repositorio compartido</a>
+ *
+ *
  * Dentro de la Calculadora tengo que desarrollar esta clase.
  * Copio el texto del enunciado:
  * Esta clase implementará todos los métodos que están relacionados con la división
@@ -92,5 +97,9 @@ public double raizCuadrada(double numero) {
        }
     return Math.sqrt(numero);
     }
+
+
+
+
 
 }
