@@ -2,8 +2,8 @@ package Calculadora;
 
 /**
  * Clase que proporciona operaciones matemáticas básicas
- * @author David Lázaro
- * @version 1.2
+ * @author David Lázaro (davidlazarounir en GitHub)
+ * @version 1.3
  */
 
 public class Suma {
